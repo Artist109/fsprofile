@@ -17,8 +17,8 @@
 
 @font-face {
     font-family: 'PT Sans';
-    src: url(/fonts/ptsans.woff2) format('woff2'), 
-    url(/fonts/ptsans.woff) format('woff');
+    src: url(/fsprofile/fonts/ptsans.woff2) format('woff2'), 
+    url(/fsprofile/fonts/ptsans.woff) format('woff');
     font-display: swap;
     font-weight: 400;
     font-style: normal;
@@ -26,8 +26,8 @@
 
 @font-face {
     font-family: 'SF Mono';
-    src: url(/fonts/SFMono/SFMono-Regular.woff2) format('woff2'), 
-    url(/fonts/SFMono/SFMono-Regular.woff) format('woff');
+    src: url(/fsprofile/fonts/SFMono/SFMono-Regular.woff2) format('woff2'), 
+    url(/fsprofile/fonts/SFMono/SFMono-Regular.woff) format('woff');
     font-display: swap;
     font-weight: 400;
     font-style: normal;
@@ -35,8 +35,8 @@
 
 @font-face {
     font-family: 'PT Sans';
-    src: url(/fonts/SFMono/SFMono-Bold.woff2) format('woff2'), 
-    url(/fonts/SFMono/SFMono-Bold.woff) format('woff');
+    src: url(/fsprofile/fonts/SFMono/SFMono-Bold.woff2) format('woff2'), 
+    url(/fsprofile/fonts/SFMono/SFMono-Bold.woff) format('woff');
     font-display: swap;
     font-weight: 700;
     font-style: normal;
@@ -44,17 +44,17 @@
 
 body {
     /* background-color: #171836; */
-    background: #020024;
-background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(23,24,54,1) 33%, rgba(75,72,154,1) 100%);
-    color: #868686;
     font-family: var(--font-family);
     font-weight: 400;
+    color: #868686;
+    background: #020024;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(23,24,54,1) 33%, rgba(75,72,154,1) 100%);
 }
 
 .container {
-    max-width: 1440px;
-    padding: 0 80px;
     margin: 0 auto;
+    padding: 0 80px;
+    max-width: 1440px;
 }
 
 .link {
@@ -376,22 +376,22 @@ footer {
 }
 
 .social-link-tg {
-    background-image: url(/content/img/telegram.svg);
+    background-image: url(/fsprofile/content/img/telegram.svg);
     background-size: 120px;
 }
 
 .social-link-ins {
-    background-image: url(/content/img/instagram.svg);
+    background-image: url(/fsprofile/content/img/instagram.svg);
     background-size: 120px;
 }
 
 .social-link-vk {
-    background-image: url(/content/img/vk.svg);
+    background-image: url(/fsprofile/content/img/vk.svg);
     background-size: 120px;
 }
 
 .social-link-git {
-    background-image: url(/content/img/github.svg);
+    background-image: url(/fsprofile/content/img/github.svg);
     background-size: 120px;
 }
 
