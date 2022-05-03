@@ -17,8 +17,8 @@
 
 @font-face {
     font-family: 'PT Sans';
-    src: url(/Profile/fonts/ptsans.woff2) format('woff2'), 
-    url(/Profile/fonts/ptsans.woff) format('woff');
+    src: url(/fonts/ptsans.woff2) format('woff2'), 
+    url(/fonts/ptsans.woff) format('woff');
     font-display: swap;
     font-weight: 400;
     font-style: normal;
@@ -26,8 +26,8 @@
 
 @font-face {
     font-family: 'SF Mono';
-    src: url(/Profile/fonts/SFMono/SFMono-Regular.woff2) format('woff2'), 
-    url(/Profile/fonts/SFMono/SFMono-Regular.woff) format('woff');
+    src: url(/fonts/SFMono/SFMono-Regular.woff2) format('woff2'), 
+    url(/fonts/SFMono/SFMono-Regular.woff) format('woff');
     font-display: swap;
     font-weight: 400;
     font-style: normal;
@@ -35,8 +35,8 @@
 
 @font-face {
     font-family: 'PT Sans';
-    src: url(/Profile/fonts/SFMono/SFMono-Bold.woff2) format('woff2'), 
-    url(/Profile/fonts/SFMono/SFMono-Bold.woff) format('woff');
+    src: url(/fonts/SFMono/SFMono-Bold.woff2) format('woff2'), 
+    url(/fonts/SFMono/SFMono-Bold.woff) format('woff');
     font-display: swap;
     font-weight: 700;
     font-style: normal;
@@ -376,22 +376,22 @@ footer {
 }
 
 .social-link-tg {
-    background-image: url(/Profile/content/img/telegram.svg);
+    background-image: url(/content/img/telegram.svg);
     background-size: 120px;
 }
 
 .social-link-ins {
-    background-image: url(/Profile/content/img/instagram.svg);
+    background-image: url(/content/img/instagram.svg);
     background-size: 120px;
 }
 
 .social-link-vk {
-    background-image: url(/Profile/content/img/vk.svg);
+    background-image: url(/content/img/vk.svg);
     background-size: 120px;
 }
 
 .social-link-git {
-    background-image: url(/Profile/content/img/github.svg);
+    background-image: url(/content/img/github.svg);
     background-size: 120px;
 }
 
@@ -404,6 +404,6 @@ footer {
 
 @media (max-width:1280px) {
     .bio-photo {
-
+/*не хватает времени*/
     }
 }
